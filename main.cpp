@@ -167,4 +167,15 @@ void correct() {
 	}
 }
 
+void menu() {
+	char ch;
+	do {
+		system("cls");
+		genering_word();
+		output_inf_word();
+		correct();
+		cout << "End? y/n " << endl;
+		ch = getch();
+	} while(ch != 'y');
+}
 
