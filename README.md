@@ -1,1 +1,1 @@
-# Kurd-TRPO
+# Kurs-TRPO
