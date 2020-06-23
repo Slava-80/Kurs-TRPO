@@ -38,3 +38,18 @@ fclose(tf);
 fclose(pr);
 }
 
+void output_inf_word() {
+char ch;
+int word = 0;
+FILE *pr;
+pr = fopen("werbs.txt", "r");
+cout « "Infinitive: ";
+while((ch = fgetc(pr)) != EOF) {
+if(ch == ' ')
+word++;
+if(word == 0)
+cout « ch;
+}
+cout « endl;
+fclose(pr);
+}
