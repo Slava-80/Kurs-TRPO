@@ -143,3 +143,26 @@ int input_participle_word() {
 	}
 	fclose(pr);
 }
+
+void correct() {
+	int i = 0, word = 0;
+	char ch;
+	FILE *pr;
+	int simple = input_simple_word();
+	int participle = input_participle_word();
+	cout << endl « "==========================" << endl;
+	cout << "Past Simple: ";
+	if(simple == 1) {
+		cout << "correct" << endl;
+	}
+	else {
+		cout << "uncorrect" << endl;
+	}
+	cout << "Past Participle: ";
+	if(participle == 1) {
+		cout << "correct" << endl;
+	}
+	else {
+		cout << "uncorrect" << endl;
+	}
+} 
