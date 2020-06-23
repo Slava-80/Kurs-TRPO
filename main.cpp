@@ -68,4 +68,20 @@ cout « ch;
 }
 cout « endl;
 fclose(pr);
-} 
+}
+
+void output_part_word() {
+char ch;
+int word = 0;
+FILE *pr;
+pr = fopen("werbs.txt", "r");
+cout « "Infinitive: ";
+while((ch = fgetc(pr)) != EOF) {
+if(ch == ' ')
+word++;
+if(word == 2)
+cout « ch;
+}
+cout « endl;
+fclose(pr);
+}
