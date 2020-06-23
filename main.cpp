@@ -179,3 +179,7 @@ void menu() {
 	} while(ch != 'y');
 }
 
+int main() {
+	menu();
+	return 0;
+}
