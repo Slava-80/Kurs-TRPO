@@ -150,7 +150,7 @@ void correct() {
 	FILE *pr;
 	int simple = input_simple_word();
 	int participle = input_participle_word();
-	cout << endl « "==========================" << endl;
+	cout << endl « "===========================" << endl;
 	cout << "Past Simple: ";
 	if(simple == 1) {
 		cout << "correct" << endl;
@@ -165,4 +165,6 @@ void correct() {
 	else {
 		cout << "uncorrect" << endl;
 	}
-} 
+}
+
+
